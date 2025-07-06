@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.qotadi{
+    position: fixed;
+    width: 500px;
+    height: 20px;
+    background-color: rgb(38, 112, 142);
+    top: -1px;
+}
+.qotadi span{
+    color: antiquewhite;
+    position: relative;
+    right: -40px;
+}
+.cards{
+width: 500px;
+height: 1100px;
+background-color: aqua;
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+}
+.card{
+    width: 180px;
+    height: 300px;
+    background-color:blue;
+    border-radius: 10px;
+    transition: 0.3s;
+     cursor: pointer;
+   
+
+}
+.card1{
+    height: 300px;
+    width: 180px;
+    background-color: purple;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card2{
+    height: 300px;
+    width: 180px;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card3{
+    height: 300px;
+    width: 180px;
+    background-color: yellow;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card4{
+    height: 300px;
+    width: 180px;
+    background-color: red;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card5{
+    height: 300px;
+    width: 180px;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card1:hover{
+ transform: scale(1.2)translate(20px);
+}
+.card:hover{
+ transform: scale(1.2)translate(20px);
+}
+.card2:hover{
+ transform: scale(1.2)translate(20px);
+}
+.card3:hover{
+ transform: scale(1.2)translate(20px);
+}
+.card4:hover{
+ transform: scale(1.2)translate(20px);
+}
+
+.card5:hover{
+ transform: scale(1.2)translate(20px);
+}
+.bosh{
+    background-color: blueviolet;
+    height: 700px;
+    width: 500px;
+}
+.xizmatlar{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    background-color: rgb(94, 94, 255);
+
+    
+}
+.cardn1{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(135deg, rgba(33,0,44,1) 0%, rgba(102,0,102,1) 100%);
+;
+    margin: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px ;
+    margin: none;
+    transition: 0.3s all  
+     
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
+.cardn2{
+    width: 200px;
+    height: 200px;
+    margin: none;
+    background-image: linear-gradient(135deg, rgba(0,255,198,1) 0%, rgba(0,201,255,1) 100%);
+;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s all
+}
+.cardn3{
+    width: 200px;
+    height: 200px;
+     background-image:  linear-gradient(135deg, rgba(255,87,34,1) 0%, rgba(142,36,170,1) 100%);
+;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s all
+}
+.cardn4{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-image; background:  linear-gradient(135deg, rgba(255,0,84,1) 0%, rgba(255,153,0,1) 100%);
+; 
+    transition: 0.3s all;
+    border-radius: 10px;
+
+}
+
+.cardn1:hover{
+ transform: scale(1.2);
+}
+.cardn2:hover{
+ transform: scale(1.2)translate(20px)
+}
+.cardn3:hover{
+ transform: scale(1.2);
+}
+.cardn4:hover{
+     transform: scale(1.2)translate(20px);
+}
+ .bosh span{
+    position: relative;
+
+
+
+ }
+ .bosh span{
+    font-size: 50px;
+    position: relative;
+    bottom: -40px;
+    right: -130px;
+    font-family: sans-serif;
+
+ }
+ .bosh h2{
+    position: relative;
+    bottom: -60px;
+    right: -110px;
+ }
+ .cardn3 span{
+    font-family: sans-serif;
+ }
